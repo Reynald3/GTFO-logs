@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#1f1e1e, #482323);
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1028px;
+}
+
+.title {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.filters_caption {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
