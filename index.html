@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +18,35 @@
                 <button>Unread 234</button>
             </div>
         </header>
-        <h1>Logs</h1>
+
+        <main class="main">
+            <ul class="rundowns">
+                <li class="rundown_list-item">
+                    <details class="rundown_item">
+                        <summary class="rundown_header">
+                            <h2 class="rundown_name">Rundown 1</h2>
+                            <span class="rundown_read-logs-count">1</span>
+                            <span>/</span>
+                            <span class="rundown_logs-count">3</span>
+                            <span class="rundown_progress">33%</span>
+                        </summary>
+                        <ul class="missions">
+                            <li class="mission_list-item">
+                                <h3 class="mission_id">R1A1</h3>
+                                <ul class="logs">
+                                    <li class="log_list-item">
+                                        <input type="checkbox">
+                                        <strong class="log_room">234</strong>
+                                        <span class="log_id">ES32-DSD-34</span>
+                                        <span class="log_note">Some note</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </main>
     </div>
 </body>
 
