@@ -3,6 +3,7 @@ body {
     margin: 0;
     background: linear-gradient(#1f1e1e, #482323);
     font-family: sans-serif;
+    color: white;
 }
 
 h1 {
@@ -21,16 +22,15 @@ h1 {
 .container {
     margin: 0 auto;
     max-width: 1028px;
+    padding: 0 40px;
 }
 
 .title {
-    color: white;
     font-size: 32px;
     font-weight: 700;
 }
 
 .filters_caption {
-    color: white;
     font-size: 16px;
     font-weight: 500;
 }
