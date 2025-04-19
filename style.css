@@ -6,7 +6,14 @@ body {
     color: white;
 }
 
-h1 {
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2 {
     margin: 0;
 }
 
@@ -14,7 +21,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     width: 100%;
     padding-top: 40px;
 }
@@ -33,4 +40,49 @@ h1 {
 .filters_caption {
     font-size: 16px;
     font-weight: 500;
+}
+
+.rundown_item[open] .rundown_header::before {
+    rotate: 90deg;
+}
+
+.rundown_name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rundown-logs {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(154, 149, 149, 1);
+    margin-left: 12px;
+}
+
+.rundown_progress--low {
+    color: rgba(174, 67, 67, 1);
+}
+
+.rundown_progress--medium {
+    color: rgba(174, 124, 67, 1);
+}
+
+.rundown_progress--high {
+    color: rgba(51, 191, 63, 1);
+}
+
+.rundown_header {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.rundown_header::before {
+    content: "⮞";
+    align-self: center;
+    margin-right: 12px;
+    transition: rotate 0.2s ease-in-out;
+}
+
+.rundown_progress {
+    margin-left: 8px;
 }
